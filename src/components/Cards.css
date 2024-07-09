@@ -1,0 +1,48 @@
+.card-container {
+   width: 100%;
+   margin-top: 100px;
+}
+
+.card-container-left {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.gc-text {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.gc-header {
+    text-align: center;
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+}
+
+.gc-header:hover {
+    transform: scale(1.05);
+}
+
+.gc-caption {
+    text-align: center;
+    color: rgb(222, 192, 60);
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.gc-caption a {
+    color: rgb(222, 192, 60);
+}
+
+.gc-img {
+    width: 46%;
+    margin-left: 50px;
+    border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(34, 31, 65, 0.389);
+}

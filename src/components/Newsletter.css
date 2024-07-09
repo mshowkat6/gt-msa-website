@@ -1,0 +1,53 @@
+.mc_embed_center {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center; /* Center text */
+}
+
+#mc_embed_signup {
+  margin-top: 10px;
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-header {
+  text-align: center;
+  color: rgb(34, 31, 65);
+  transition: transform 0.3s ease-in-out; 
+  font-size: 2.3rem;
+}
+
+.form-header:hover {
+  transform: scale(1.05); 
+}
+
+.form-caption {
+  font-size: 1rem;
+  color: rgba(72, 70, 108, 0.65);
+  margin: 10px 0px 10px;
+}
+
+.referral_badge_container {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.referral_badge {
+  width: 100px; /* Make the logo smaller */
+  height: auto;
+  display: flex;
+  padding: 2px 0;
+  justify-content: center;
+  align-items: center;
+}

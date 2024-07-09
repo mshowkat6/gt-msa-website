@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.prayer-container,
+.jummah-container {
+    width: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Ensure children stack vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+.location-container {
+  display: flex;
+  gap: 5px;
+}
+
+.room-container,
+.wudhu-container {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(196, 183, 183, 0.384);
+  border-radius: 10px; /* Add rounded edges */
+  overflow: hidden;
+}
+
+.title,
+.jummah-title,
+.room-title {
+    text-align: center;
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.title:hover,
+.jummah-title:hover,
+.room-title:hover {
+    transform: scale(1.05); /* Slightly increase the size of the header on hover */
+}
+
+.room-title {
+  margin-top: 15px;
+}
+
+.table,
+.jummah-table {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0px 0px 20px 0px rgba(139, 139, 113, 0.384);
+    border-radius: 10px; /* Add rounded edges */
+    overflow: hidden; /* Ensure rounded corners are visible */
+  }
+  
+  .table th, .table td, .jummah-table th, .jummah-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: rgb(34, 31, 65);
+  }
+  
+  .table th, .jummah-table th {
+    background-color: rgb(226, 186, 6);
+    border-radius: 10px; /* Add rounded edges */
+    overflow: hidden; /* Ensure rounded corners are visible */
+    font-weight: bold;
+    color: rgb(34, 31, 65);
+  }
+  
+  .table tbody tr:nth-child(even), .jummah-table tbody tr:nth-child(even){
+    background-color: rgb(242, 237, 217);
+  }
+  
+  .table tbody tr:hover, .jummah-table tbody tr:hover  {
+    background-color: rgb(225, 219, 194);
+  }
+
+  .loc {
+    color: rgb(153, 153, 153);
+  }
+
+  .num {
+    font-size: 30px;
+    color: rgb(226, 186, 6) ;
+  }
+
+  .more-prayer-info {
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(34, 31, 65);
+  }
+  
+
+
+
+  

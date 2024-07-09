@@ -1,0 +1,129 @@
+img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.abt-image-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center; /* Centers the text vertically */
+}
+
+
+.abt-header {
+    position: absolute;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px; /* optional: adds padding for better readability */
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    top: 45%;
+    font-size: 7rem;
+}
+
+.abt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.who {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boys-pfp {
+    width: 46%;
+    margin-left: 50px;
+    border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(34, 31, 65, 0.389);
+}
+
+.who-we-are {
+    color: rgb(34, 31, 65);
+    color: rgb(226, 186, 6);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.5rem;
+}
+
+.who-we-are:hover {
+    transform: scale(1.05);
+}
+
+.we-are {
+    color: rgb(222, 192, 60);
+    color: rgb(34, 31, 65);
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.meet-board {
+    margin-top: 20px;
+    color: rgb(34, 31, 65);
+    color: rgb(226, 186, 6);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.5rem;
+}
+
+.meet-board:hover {
+    transform: scale(1.05);
+}
+
+.board-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic1-3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap; /* Ensure that items wrap to the next line if there's not enough space */
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 28%; 
+}
+
+.pfp-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.name, .position {
+    text-align: left;
+    width: 100%;
+    padding-left: 5px; /* Optional: Add some padding to the left */
+}
+
+.name {
+    color: rgb(34, 31, 65);
+    font-size: 1.5rem;
+}
+
+.position {
+    color: rgba(255, 210, 7, 0.656);
+    color: rgba(52, 50, 68, 0.672);
+}
+
