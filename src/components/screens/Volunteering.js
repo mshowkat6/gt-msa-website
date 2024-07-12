@@ -1,11 +1,10 @@
 import React from 'react';
+import VolunteerImage from '../VolunteerImage';
 
 export default function Volunteering() {
     return (
         <>
-            <h1 className = 'volunteering'>
-                VOLUNTEERING
-            </h1>
+            <VolunteerImage />
         </>
     );
 }

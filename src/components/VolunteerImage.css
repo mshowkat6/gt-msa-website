@@ -1,0 +1,104 @@
+img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+.volunteer-header-pic {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center; /* Centers the text vertically */
+}
+
+.volunteer-header {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 10px; /* optional: adds padding for better readability */
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    font-size: 7rem;
+}
+
+.volunteer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+  
+  .food-bank-container,
+  .downtown-container,
+  .farooq-container,
+  .voter-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .voter-container {
+    margin-bottom: 50px;
+  }
+
+  .food-bank-container {
+    margin-bottom: 90px;
+  }
+
+  .downtown-container {
+    margin-bottom: 80px;
+  }
+  
+  .food-text,
+  .downtown-text,
+  .farooq-text,
+  .voter-text {
+    flex: 1;
+  }
+  
+  .farooq-pic, .project-downtown, .muslim-voter, .food-bank {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .farooq-pic {
+    border-radius: 10px;
+  }
+
+  .project-downtown {
+    max-width: 300px;
+  }
+
+  .muslim-voter {
+    max-width: 350px;
+  }
+  
+  .farooq-header, .voter-header, .food-header, .downtown-header {
+    margin: 0 0 10px;
+    color: rgb(226, 186, 6);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2rem;
+    transform-origin: left;
+  }
+
+  .farooq-header:hover, .voter-header:hover, .food-header:hover, .downtown-header:hover {
+    transform: scale(1.05);
+  }
+  
+  p {
+    margin: 0 0 10px;
+    color: rgb(34, 31, 65);
+  }
+  
+  a {
+    color: rgb(34, 31, 65);
+    text-decoration: underline;
+  }
+  

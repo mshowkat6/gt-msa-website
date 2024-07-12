@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'; 
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop'; 
 import Home from './components/screens/Home';
 import About from './components/screens/About';
 import Events from './components/screens/Events';
@@ -11,11 +12,13 @@ import Volunteering from './components/screens/Volunteering';
 import HalalFood from './components/screens/HalalFood';
 import SignUp from './components/screens/SignUp';
 import Resources from './components/screens/Resources';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path = '/' exact element = {<Home/>} />
         <Route path = '/about' exact element = {<About/>} />
@@ -27,6 +30,7 @@ function App() {
         <Route path = '/sign-up' exact element = {<SignUp/>} />
         <Route path = '/resources' exact element = {<Resources/>} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

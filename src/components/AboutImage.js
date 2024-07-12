@@ -55,12 +55,12 @@ function AboutImage() {
                     </div>
                     <div className="pic6">
                         <img src="./images/pfp5.jpg" alt='pfp-5' className='pfp-img' />
-                        <h2 className="name">Tahir</h2>
+                        <h2 className="name">Tahir Saied</h2>
                         <p className="position">Philanthropy Chair</p>
                     </div>
                     <div className="pic7">
                         <img src="./images/pfp5.jpg" alt='pfp-5' className='pfp-img' />
-                        <h2 className="name">Rameez</h2>
+                        <h2 className="name">Rameez Raoof</h2>
                         <p className="position">Treasurer</p>
                     </div>
                 </div>

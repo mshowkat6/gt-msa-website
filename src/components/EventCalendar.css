@@ -1,0 +1,44 @@
+img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.events-photo {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+}
+.events-header{
+    position: absolute;
+    color:  rgb(226, 186, 6);
+    color: white;
+    text-align: center;
+    padding: 10px; /* optional: adds padding for better readability */
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    font-size: 7rem;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .upcoming-events {
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+
+  .upcoming-events:hover {
+    transform: scale(1.05);
+  }

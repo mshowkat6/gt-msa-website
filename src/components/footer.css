@@ -1,0 +1,39 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    height: 160px;
+    padding-top: 1.5rem;
+    position: relative;
+    bottom: 0;
+    background-color: rgb(34, 31, 65);
+}
+
+.footer-header {
+    color: white;
+    color: rgb(226, 186, 6);
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+}
+
+.fa-instagram, .fa-facebook, .fa-youtube, .fa-tiktok {
+    color: rgb(226, 186, 6);
+    color: white;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.fa-instagram:hover, .fa-facebook:hover, .fa-youtube:hover, .fa-tiktok:hover {
+    transform: scale(1.1);
+}
+
+.footer-caption {
+    margin-bottom: 15px;
+    color:  rgb(226, 186, 6);
+    
+}
