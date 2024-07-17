@@ -94,14 +94,14 @@ const PrayerTimes = ({ city, country, method }) => {
           <h1 className="room-title"> Prayer Rooms </h1>
           <div className = 'location-container'>
             <div className = "wudhu-container">
-                <p className= "loc"> uhh building somthing </p>
-                <p className= "num"> 103 </p>
-                <p className= "loc"> wudhu station </p>
+                <p className= "loc"> Student Center </p>
+                <p className= "num"> 3257 & 3251 </p>
+                <p className= "loc"> Ablution Rooms</p>
             </div>
             <div className = "room-container">
-                <p className= "loc"> uhh building somthing </p>
-                <p className="num"> 103 </p>
-                <p className="loc"> wudhu station </p>
+                <p className= "loc"> Student Center </p>
+                <p className="num"> 3255 </p>
+                <p className="loc"> Beth Cabrera Reflection Room </p>
             </div>
           </div>
         {/* Conditionally render the Link based on the current path */}

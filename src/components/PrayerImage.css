@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .location-header {
@@ -52,8 +52,13 @@
     margin-top: 30px;
 }
 
-.reflection-image, .reflection-vid {
+.reflection-image {
     width: 38%;
+}
+
+.prayer-vid {
+    border-radius: 10px;
+    border: 2px solid rgb(34, 31, 65);
 }
 
 .reflection-caption {
@@ -66,14 +71,15 @@
     align-items: center;
     text-align: center;
     margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 30px;
 }
 
 .jummah-text {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .jummah-header {
@@ -95,8 +101,7 @@
 }
 
 .prayer-img-jummah {
-    width: 46%;
-    margin-left: 50px;
+    width: 40%;
     border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(34, 31, 65, 0.389);

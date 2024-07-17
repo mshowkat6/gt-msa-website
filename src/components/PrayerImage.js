@@ -24,7 +24,17 @@ function PrayerImage() {
                         <p className="reflection-caption">Map of Student Center</p>
                     </div>
                     <div className="reflection-vid">
-                        <img src="./images/reflection.jpg" alt='reflection-map' className='reflection-map' />
+                        <iframe
+                            className="prayer-vid" 
+                            width="300" 
+                            height="533"
+                            src="https://www.youtube.com/embed/gdsvWW7YObk" 
+                            title="gt prayer room" 
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerPolicy="strict-origin-when-cross-origin" 
+                            allowFullScreen>
+                        </iframe>
                         <p className="reflection-caption">This Video Can Help Guide You To The Prayer Room</p>
                     </div>
                 </div>
@@ -36,7 +46,7 @@ function PrayerImage() {
                         and stay informed with our Friday Jummah and general Salah announcements. 
                         To join, simply contact our Jummah Coordinator and request an invitation.</p>
                 </div>
-                <img src="./images/prayer-img-2.jpg" alt='prayer-img-jummah' className='prayer-img-jummah' />
+                <img src="./images/prayer-img.jpg" alt='prayer-img-jummah' className='prayer-img-jummah' />
             </div>
         </div>
     )

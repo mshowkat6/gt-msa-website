@@ -26,7 +26,7 @@ function VolunteerImage() {
                 </div>
                 <div className='voter-container'>
                     <div className='voter-text'>
-                        <h2 className='voter-header'>Volunteer at Al-Farooq Masjid</h2>
+                        <h2 className='voter-header'>Volunteer with Georgia Muslim Voter Project</h2>
                         <p className='voter-caption'>
                         The Georgia Muslim Voter Project (GAMVP) was founded in late 2015 in response to the growing anti-Muslim rhetoric in mainstream politics and the low rates of civic engagement within the Muslim community. 
                         GAMVP's mission is to activate Muslim voters to elevate their voices, standing for equal representation and justice in all forms.

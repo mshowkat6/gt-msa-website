@@ -1,0 +1,95 @@
+img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.food-photo {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.halal-header{
+    position: absolute;
+    color:  rgb(226, 186, 6);
+    color: white;
+    text-align: center;
+    padding: 10px; /* optional: adds padding for better readability */
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    font-size: 7rem;
+}
+
+.map {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-header {
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.map-header:hover {
+    transform: scale(1.05);
+}
+
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.restaurant-header {
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.restaurant-header:hover {
+    transform: scale(1.05);
+}
+
+.restaurants-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px; /* Adjust the gap as needed for spacing */
+    padding: 16px;
+}
+
+.restaurant-img {
+    width: 100%;
+    height: auto;
+    border: 10px solid rgb(34, 31, 65); /* Optional: Add a border around images */
+    margin-bottom: 5px;
+}
+
+.gyro-chef, .halal-guys, .tannour, .peri, .mamoun, .tabla, .greedy-bunch, .aviva, .mukja {
+    background-color: rgb(34, 31, 65);
+    border-radius: 10px;
+}
+
+.gyro-chef h1, .halal-guys h1, .tannour h1, .peri h1, .mamoun h1, .tabla h1, .greedy-bunch h1, .aviva h1, .mukja h1 {
+    color: rgb(226, 186, 6);
+    margin-left: 10px;
+}
+
+.gyro-chef p, .halal-guys p, .tannour p, .peri p, .mamoun p, .tabla p, .greedy-bunch p, .aviva p, .mukja p {
+    color: rgb(226, 186, 6);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

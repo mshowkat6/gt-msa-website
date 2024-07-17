@@ -42,3 +42,60 @@ img {
   .upcoming-events:hover {
     transform: scale(1.05);
   }
+
+  .event-types {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .type-header {
+    color: rgb(34, 31, 65);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+  }
+
+  .type-header:hover {
+    transform: scale(1.05);
+  }
+
+  .social, .religion, .education, .career {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .event-text {
+    text-align: center;
+  }
+
+  .event-header {
+    text-align: center;
+    color:  rgb(226, 186, 6);
+    transition: transform 0.3s ease-in-out; 
+    font-size: 2.3rem;
+  }
+
+  .event-header:hover {
+    transform: scale(1.05);
+  }
+
+  .event-caption {
+    color: rgba(34, 31, 65, 0.833);
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .type-img {
+    width: 45%;
+    height: auto;
+    border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
+    border-radius: 10px;
+  }

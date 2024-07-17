@@ -1,11 +1,11 @@
 import React from 'react';
+import '../../App.css';
+import HalalFoodImage from "../HalalFoodImage";
 
 export default function HalalFood() {
     return (
         <>
-            <h1 className = 'halal-food'>
-                HALAL FOOD
-            </h1>
+            <HalalFoodImage />
         </>
     );
 }

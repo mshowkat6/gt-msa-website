@@ -4,6 +4,7 @@ img {
     height: 100%;
     z-index: -1;
 }
+
 .volunteer-header-pic {
     height: 91vh;
     width: 100%;
@@ -43,7 +44,7 @@ img {
   }
 
   .voter-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .food-bank-container {
