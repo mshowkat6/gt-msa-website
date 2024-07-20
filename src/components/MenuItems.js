@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
-        title: 'Apps',
-        path: '/apps',
+        title: 'About Islam',
+        path: '/abt-islam',
         cName: 'dropdown-link'
     },
     {

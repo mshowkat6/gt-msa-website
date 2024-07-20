@@ -56,6 +56,11 @@
     width: 38%;
 }
 
+.reflection-map {
+    border-radius: 10px;
+    border: 2px solid rgb(34, 31, 65);
+}
+
 .prayer-vid {
     border-radius: 10px;
     border: 2px solid rgb(34, 31, 65);

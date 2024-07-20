@@ -7,7 +7,7 @@ import Home from './components/screens/Home';
 import About from './components/screens/About';
 import Events from './components/screens/Events';
 import PrayerInfo from './components/screens/PrayerInfo';
-import Apps from './components/screens/Apps';
+import AbtIslam from './components/screens/AbtIslam';
 import Volunteering from './components/screens/Volunteering';
 import HalalFood from './components/screens/HalalFood';
 import SignUp from './components/screens/SignUp';
@@ -24,7 +24,7 @@ function App() {
         <Route path = '/about' exact element = {<About/>} />
         <Route path = '/events' exact element = {<Events/>} />
         <Route path = '/prayer-information' exact element = {<PrayerInfo/>} />
-        <Route path = '/apps' exact element = {<Apps/>} />
+        <Route path = '/abt-islam' exact element = {<AbtIslam/>} />
         <Route path = '/volunteering' exact element = {<Volunteering/>} />
         <Route path = '/halal-food' exact element = {<HalalFood/>} />
         <Route path = '/sign-up' exact element = {<SignUp/>} />

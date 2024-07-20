@@ -1,0 +1,34 @@
+.resource-container {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.islam-resource-link {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.islam-resource, .volunteer-resource, .food-resource {
+    width: 100%;
+    height: auto;
+}
+
+.resource-titles {
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    transition: transform 0.3s ease-in-out; 
+    color:  white;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+.resource-titles:hover {
+    transform: scale(1.05);
+}
