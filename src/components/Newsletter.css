@@ -51,3 +51,38 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #mc_embed_signup {
+    max-width: 90%; /* Reduce max width for smaller screens */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .form-caption {
+    font-size: 0.9rem; /* Reduce font size */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .referral_badge {
+    width: 80px; /* Make the logo smaller */
+  }
+}
+
+@media (max-width: 480px) {
+  #mc_embed_signup {
+    max-width: 95%; /* Further reduce max width for very small screens */
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .form-caption {
+    font-size: 0.8rem; /* Further reduce font size */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .referral_badge {
+    width: 60px; /* Further reduce logo size */
+  }
+}

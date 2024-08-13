@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 
 export function Button() {
     return(
-        <Link to = 'sign-up'>
+        <Link to = 'donate'>
             <button className = 'btn'>
-                Sign Up
+                Donate Now
             </button>
         </Link>
     );

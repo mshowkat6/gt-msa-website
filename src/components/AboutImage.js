@@ -49,17 +49,17 @@ function AboutImage() {
                         <p className="position">Marketing Chair</p>
                     </div>
                     <div className="pic5">
-                        <img src="./images/pfp5.jpg" alt='pfp-5' className='pfp-img' />
+                        <img src="./images/muneeza2.jpg" alt='pfp-5' className='pfp-img' />
                         <h2 className="name">Muneeza Chaudhry</h2>
                         <p className="position">Secretary</p>
                     </div>
                     <div className="pic6">
-                        <img src="./images/pfp5.jpg" alt='pfp-5' className='pfp-img' />
+                        <img src="./images/pfp3.jpg" alt='pfp-5' className='pfp-img' />
                         <h2 className="name">Tahir Saied</h2>
                         <p className="position">Philanthropy Chair</p>
                     </div>
                     <div className="pic7">
-                        <img src="./images/pfp5.jpg" alt='pfp-5' className='pfp-img' />
+                        <img src="./images/pfp3.jpg" alt='pfp-5' className='pfp-img' />
                         <h2 className="name">Rameez Raoof</h2>
                         <p className="position">Treasurer</p>
                     </div>

@@ -14,7 +14,7 @@ function PrayerImage() {
                 </h1>
             </div>
             <div className="prayer-times-container">
-                <PrayerTimes />
+                <PrayerTimes city="Atlanta" country="Georgia" method={2}/>
             </div>
             <div className = "prayer-location">
                 <h1 className="location-header">Where is the Prayer Room ?</h1>

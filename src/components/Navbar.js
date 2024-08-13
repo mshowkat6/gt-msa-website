@@ -64,8 +64,8 @@ function Navbar() {
                         {dropdown && <Dropdown />}
                     </li>
                     <li className = 'nav-item'>
-                        <Link to = '/sign-up' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
-                            Sign Up
+                        <Link to = '/donate' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
+                            Donate Now
                         </Link>
                     </li>
                 </ul>

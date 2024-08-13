@@ -94,6 +94,51 @@
     margin-top: 20px;
     color: rgb(34, 31, 65);
   }
+
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the containers on top of each other */
+        gap: 30px; /* Reduce the gap between stacked elements */
+        align-items: center; /* Center the stacked containers */
+    }
+
+    .prayer-container,
+    .jummah-container {
+        width: 70%; /* Decrease width for smaller screens */
+        margin-top: 20px; /* Reduce margin-top to save space */
+    }
+
+    .room-container,
+    .wudhu-container {
+        padding: 8px; /* Reduce padding for smaller screens */
+    }
+
+    .table,
+    .jummah-table {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        gap: 20px; /* Further reduce the gap between stacked elements */
+    }
+
+    .prayer-container,
+    .jummah-container {
+        width: 90%; /* Further increase width for very small screens */
+    }
+
+    .room-container,
+    .wudhu-container {
+        padding: 6px; /* Further reduce padding for very small screens */
+    }
+
+    .table,
+    .jummah-table {
+        font-size: 14px; /* Further reduce font size for very small screens */
+    }
+}
   
 
 

@@ -1,26 +1,29 @@
+/* Image Styling */
 img {
-    object-fit: cover;
-    width:100%;
-    height: 100%;
+    object-fit: contain; /* Ensure the entire image is visible */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 90vh; /* Limit the height to ensure it doesn't fill the entire screen */
     z-index: -1;
 }
 
+/* About Image Container */
 .abt-image-container {
-    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    object-fit: contain;
-    justify-content: center; /* Centers the text vertically */
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Ensures content does not overflow */
 }
 
 
 .abt-header {
     position: absolute;
-    color:  rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px; /* optional: adds padding for better readability */
+    padding: 10px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     top: 45%;
     font-size: 7rem;
@@ -43,6 +46,7 @@ img {
     margin-right: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-direction: row; /* Default horizontal layout for larger screens */
 }
 
 .boys-pfp {
@@ -91,17 +95,14 @@ img {
 
 .pic1-3 {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap; /* Ensure that items wrap to the next line if there's not enough space */
+    flex-wrap: wrap; /* Ensure items wrap to next line */
+    justify-content: center;
+    width: 100%; /* Ensure that items wrap to the next line if there's not enough space */
 }
 
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-basis: 28%; /* Adjust to percentage to allow wrapping */
     margin: 10px;
-    width: 28%; 
 }
 
 .pfp-img {
@@ -127,3 +128,50 @@ img {
     color: rgba(52, 50, 68, 0.672);
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .abt-header {
+        font-size: 4rem;
+        top: 40%;
+    }
+
+    img {
+        max-height: 70vh; /* Adjust max height for smaller screens */
+    }
+
+    .who {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 20px; /* Reduce gap for smaller screens */
+    }
+
+    .who-we-are, .meet-board {
+        font-size: 2rem;
+    }
+
+    .we-are {
+        font-size: 1rem;
+    }
+
+    .boys-pfp {
+        width: 100%; /* Full width on small screens */
+        margin-left: 0; /* Center align with no left margin */
+        margin-right: 0;
+    }
+
+    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+        width: 90%; /* Increase width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .abt-header {
+        font-size: 3rem;
+        top: 35%;
+    }
+
+    img {
+        max-height: 50vh; /* Further reduce height for very small screens */
+    }
+}
