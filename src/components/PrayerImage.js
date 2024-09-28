@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import '../App.css';
 import './PrayerImage.css';
 import PrayerTimes from "./PrayerTimes";
@@ -44,7 +44,7 @@ function PrayerImage() {
                     <h1 className="jummah-header">Join Our Jama'ah Group Chat</h1>
                     <p className="jummah-caption">Join our community to get live notifications for congregational prayer times, ensuring you never miss the chance to earn extra rewards. Receive live updates on prayer times 
                         and stay informed with our Friday Jummah and general Salah announcements. 
-                        To join, simply contact our Jummah Coordinator and request an invitation.</p>
+                        To join, simply direct message us on <a href="https://www.instagram.com/gt.msa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a> or email us to request an invite.</p>
                 </div>
                 <img src="./images/prayer-img.jpg" alt='prayer-img-jummah' className='prayer-img-jummah' />
             </div>

@@ -5,7 +5,7 @@ function Footer () {
     return (
         <div className= "footer-container">
             <h1 className="footer-header">GTMSA</h1>
-            <p className="footer-caption">CONTACT US: contact@gtmsa.org</p>
+            <p className="footer-caption">CONTACT US: gatechmuslimstudentassociation@gmail.com</p>
             <div className= "socials">
                 <a href= "https://www.instagram.com/gt.msa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                     <i className = 'fab fa-instagram'/>

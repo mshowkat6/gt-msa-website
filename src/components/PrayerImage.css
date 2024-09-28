@@ -1,18 +1,20 @@
-.prayer-img {
+img {
     object-fit: cover;
     width:100%;
-    height: 100%;
+    height: auto;
+    max-height: 90vh;
     z-index: -1;
 }
 
 .prayer-image-container {
-    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     object-fit: contain;
-    justify-content: center; /* Centers the text vertically */
+    justify-content: center; 
+    position: relative;
+    overflow: hidden;/* Centers the text vertically */
 }
 
 .prayer-image-header {
@@ -22,7 +24,6 @@
     text-align: center;
     padding: 10px; /* optional: adds padding for better readability */
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
-    top: 45%;
     font-size: 7rem;
 }
 
@@ -105,9 +106,94 @@
     margin-top: 10px;
 }
 
+.jummah-caption a {
+    color: rgb(222, 192, 60);
+}
+
 .prayer-img-jummah {
     width: 40%;
     border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(34, 31, 65, 0.389);
+}
+
+@media only screen and (max-width: 1024px) {
+    .prayer-image-header {
+        font-size: 6rem;
+    }
+
+    .location-header {
+        font-size: 2rem;
+    }
+
+    .reflection-image, .reflection-vid {
+        width: 45%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jummah-gc {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .prayer-img-jummah {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .prayer-image-header {
+        font-size: 4rem;
+    }
+
+    .pic-and-vid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reflection-image, .reflection-vid {
+        width: 80%;
+    }
+
+    .prayer-img {
+        height: auto;
+    }
+
+    .prayer-vid {
+        width: 100%;
+        height: auto;
+    }
+
+    .jummah-gc {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px;
+    }
+
+    .prayer-img-jummah {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .prayer-image-header {
+        font-size: 2.5rem;
+    }
+
+    .reflection-image, .reflection-vid {
+        width: 100%;
+    }
+
+    .jummah-gc {
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .prayer-img-jummah {
+        width: 100%;
+        border: 10px solid rgb(34, 31, 65);
+    }
 }

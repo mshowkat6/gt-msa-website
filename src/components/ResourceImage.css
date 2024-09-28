@@ -1,23 +1,28 @@
+/* Base container styling */
 .resource-container {
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 30px;
-    height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap; /* Ensures that items wrap when screen width is reduced */
 }
 
+/* Styling for links */
 .islam-resource-link {
     display: flex; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+/* Styling for individual resource blocks */
 .islam-resource, .volunteer-resource, .food-resource {
-    width: 100%;
+    width: 30%; /* Responsive width for larger screens */
     height: auto;
+    position: relative;
 }
 
 .resource-titles {
@@ -25,10 +30,66 @@
     text-align: center;
     font-size: 4rem;
     transition: transform 0.3s ease-in-out; 
-    color:  white;
+    color: white;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 
 .resource-titles:hover {
     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1300px) {
+    .resource-titles {
+        font-size: 3rem;
+    }
+}
+
+
+/* Responsive breakpoints */
+
+/* For tablets */
+@media only screen and (max-width: 1024px) {
+    .resource-container {
+        gap: 20px; /* Reduce gap between images on smaller screens */
+    }
+
+    .islam-resource, .volunteer-resource, .food-resource {
+        width: 45%; /* Slightly wider blocks on medium screens */
+    }
+
+    .resource-titles {
+        font-size: 3rem;
+    }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 768px) {
+    .resource-container {
+        flex-direction: column; /* Switch to column layout on smaller screens */
+        align-items: center;
+        gap: 30px; /* Add more space between blocks in column layout */
+    }
+
+    .islam-resource, .volunteer-resource, .food-resource {
+        width: 80%; /* Increase width for single column layout */
+    }
+
+    .resource-titles {
+        font-size: 2.5rem;
+    }
+}
+
+/* For small mobile devices */
+@media only screen and (max-width: 480px) {
+    .resource-container {
+        gap: 20px;
+    }
+
+    .islam-resource, .volunteer-resource, .food-resource {
+        width: 100%; /* Full width for small mobile devices */
+    }
+
+    .resource-titles {
+        font-size: 2rem;
+    }
 }

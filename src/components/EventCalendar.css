@@ -1,19 +1,21 @@
 img {
-    object-fit: cover;
-    width:100%;
-    height: 100%;
-    z-index: -1;
+  object-fit: contain; /* Ensure the entire image is visible */
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 90vh; /* Limit the height to ensure it doesn't fill the entire screen */
+  z-index: -1;
 }
 
 .events-photo {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    object-fit: contain;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Ensures content does not overflow */
 }
+
 .events-header{
     position: absolute;
     color:  rgb(226, 186, 6);
@@ -58,6 +60,7 @@ img {
     transition: transform 0.3s ease-in-out; 
     font-size: 2.3rem;
     margin-bottom: 40px;
+    text-align: center; 
   }
 
   .type-header:hover {
@@ -99,3 +102,54 @@ img {
     border: 15px solid rgb(34, 31, 65); /* Add a thick border to the image */
     border-radius: 10px;
   }
+
+@media (max-width: 1200px) {
+  .embed-calendar {
+    max-width: 95%; /* Further reduce max width for very small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .events-header {
+      font-size: 4rem;
+  }
+
+  img {
+      max-height: 70vh;
+  }
+
+  .social, .religion, .education, .career {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      gap: 10px;
+  }
+
+  .type-img {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .embed-calendar {
+    max-width: 90%; /* Reduce max width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .events-header {
+      font-size: 3rem;
+  }
+
+  img {
+    max-height: 50vh; /* Further reduce height for very small screens */
+}
+
+  .calendar, .upcoming-events, .event-types, .social, .religion, .education, .career {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .embed-calendar {
+    max-width: 95%; /* Further reduce max width for very small screens */
+  }
+}

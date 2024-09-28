@@ -1,6 +1,6 @@
 /* Image Styling */
 img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     max-width: 100%; /* Constrain image to the width of its container */
     height: auto;

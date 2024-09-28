@@ -27,7 +27,10 @@ function AboutImage() {
                 <h2 className="meet-board">Meet the Board</h2>
             </div>
             <div className="board-pics">
-                <div className="pic1-3">
+                <img src="./images/group-pic.JPG" alt='group-pic' className='group-pic' />
+                <p className="positions">Left to Right: Muadh George (Brothers Vice President), Tahir Saied (Philanthropy Chair), Rameez Raoof (Treasurer), 
+                Renee Alnoubani (President), Muneeza Chaudhry (Secretary), Khadijah Akbar (Sisters Vice President), Noor Hasan (Marketing Chair).</p>
+                {/* <div className="pic1-3">
                     <div className= "pic1">
                         <img src="./images/pfp2.jpg" alt='pfp-2' className='pfp-img' />
                         <h2 className="name">Renee Alnoubani</h2>
@@ -63,7 +66,7 @@ function AboutImage() {
                         <h2 className="name">Rameez Raoof</h2>
                         <p className="position">Treasurer</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

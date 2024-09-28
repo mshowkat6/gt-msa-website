@@ -5,7 +5,7 @@ function VolunteerImage() {
     return (
         <div className='main-container'>
             <div className='volunteer-header-pic'>
-                <img src="./images/farooq-pic.jpg" alt='farooq-header' className='farooq-header' />
+                <img src="./images/farooq-pic3.jpg" alt='farooq-header' className='farooq-header' />
                 <h2 className='volunteer-header'>
                     VOLUNTEERING
                 </h2>

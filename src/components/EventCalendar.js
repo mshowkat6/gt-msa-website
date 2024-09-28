@@ -12,7 +12,7 @@ const EventCalendar = () => {
         </div>
         <div className='calendar'>
             <h1 className='upcoming-events'>Upcoming Events</h1>
-            <iframe
+            <iframe className = 'embed-calendar'
             src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&bgcolor=%23e2ba06&mode=MONTH&showCalendars=0&showPrint=0&src=bWF5bXVuYWguc2hvd2thdEBnbWFpbC5jb20&color=%23039BE5"
             style={{ border: 'solid 20px #E2BA06' }}
             width="1200"

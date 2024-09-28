@@ -63,13 +63,14 @@ function HalalFoodImage () {
         </div>
         <div className='map'>
             <h2 className='map-header'>Halal Food Map</h2>
-            <iframe 
+            <iframe
                 src="https://www.google.com/maps/d/embed?mid=1ujZqTRsOJz-ra3gNB-_51iUyZoTFejw&hl=en&ehbc=2E312F" 
-                width="1000" 
+                width="85%" 
                 height="650"
                 style={{ border: '30px solid rgb(34, 31, 65)' }}
                 allowFullScreen=""
                 loading="lazy"
+                title="Halal Food Map"
             ></iframe>
         </div>
     </div>

@@ -1,18 +1,19 @@
 img {
     object-fit: cover;
     width:100%;
-    height: 100%;
+    height: auto;
+    max-height: 90vh;
     z-index: -1;
 }
 
 .donate-image-container {
-    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    object-fit: contain;
     justify-content: center; /* Centers the text vertically */
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -22,7 +23,6 @@ img {
     text-align: center;
     padding: 10px; /* optional: adds padding for better readability */
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
-    top: 45%;
     font-size: 7rem;
 }
 
@@ -73,4 +73,31 @@ img {
 .charityFund-pic {
     width: 80%;
     border: 10px solid rgb(34, 31, 65); 
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .donate-header {
+        font-size: 4rem;
+    }
+
+    .msaFund-pic {
+        width: 100%;
+    }
+
+    .charityFund-pic {
+        width: 100%
+    }
+
+    .fund-caption {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .donate-header {
+        font-size: 3rem;
+    }
+
 }

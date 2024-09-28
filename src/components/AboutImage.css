@@ -1,6 +1,6 @@
 /* Image Styling */
 img {
-    object-fit: contain; /* Ensure the entire image is visible */
+    object-fit: cover; /* Ensure the entire image is visible */
     width: 100%;
     height: auto; /* Maintain aspect ratio */
     max-height: 90vh; /* Limit the height to ensure it doesn't fill the entire screen */
@@ -25,7 +25,6 @@ img {
     text-align: center;
     padding: 10px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
-    top: 45%;
     font-size: 7rem;
 }
 
@@ -88,20 +87,40 @@ img {
 }
 
 .board-pics {
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column; 
 }
 
-.pic1-3 {
+.group-pic {
+    width: 80%;
+    height: auto;
+    object-fit: contain;  /* Maintain aspect ratio */
+    border: 15px solid rgb(34, 31, 65);
+    border-radius: 10px;
+}
+
+.positions {
+    color: rgb(34, 31, 65);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 15px;
+} 
+
+/* .pic1-3 {
     display: flex;
-    flex-wrap: wrap; /* Ensure items wrap to next line */
+    flex-wrap: wrap; 
     justify-content: center;
-    width: 100%; /* Ensure that items wrap to the next line if there's not enough space */
+    width: 100%; 
 }
 
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-    flex-basis: 28%; /* Adjust to percentage to allow wrapping */
+    flex-basis: 28%; 
     margin: 10px;
 }
 
@@ -115,7 +134,7 @@ img {
 .name, .position {
     text-align: left;
     width: 100%;
-    padding-left: 5px; /* Optional: Add some padding to the left */
+    padding-left: 5px; 
 }
 
 .name {
@@ -126,17 +145,12 @@ img {
 .position {
     color: rgba(255, 210, 7, 0.656);
     color: rgba(52, 50, 68, 0.672);
-}
+} */
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .abt-header {
         font-size: 4rem;
-        top: 40%;
-    }
-
-    img {
-        max-height: 70vh; /* Adjust max height for smaller screens */
     }
 
     .who {
@@ -160,18 +174,14 @@ img {
         margin-right: 0;
     }
 
-    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-        width: 90%; /* Increase width for smaller screens */
-    }
+    /* .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+        width: 90%; 
+    } */
 }
 
 @media (max-width: 480px) {
     .abt-header {
         font-size: 3rem;
-        top: 35%;
     }
 
-    img {
-        max-height: 50vh; /* Further reduce height for very small screens */
-    }
 }

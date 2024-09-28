@@ -13,7 +13,7 @@ function AbtIslamImage () {
             <div className="key-concepts"> 
                 <h1 className="key-concepts-header">Key Concepts Of Islam</h1>
                 <div className="first-pic">
-                <img src="./images/kaaba_VSCO.JPG" alt='kaaba-pic' className='kaaba-pic' />
+                <img src="./images/inside-farooq1.jpg" alt='kaaba-pic' className='kaaba-pic' />
                     <div className="first-text">
                         <p className="body">Islam is one of the world's major monotheistic religions, originating in the 7th century in the Arabian Peninsula with the revelations received by the Prophet Muhammad (peace be upon him). 
                             These revelations were later compiled into the religion's holy book, the Quran.
@@ -23,7 +23,7 @@ function AbtIslamImage () {
                         </p>
                     </div>
                 </div>
-                <p className="body">
+                <p className="body" alt = "five-pillar">
                 Islam is built upon five pillars that guide the life of every Muslim:
                 </p>
                 <p className="body-list"> 1. <span className="list-name"> Shahada (Declaration of Faith)</span> 
@@ -67,7 +67,7 @@ function AbtIslamImage () {
                          Prayer, or Salat, is one of the Five Pillars of Islam. It allows Muslims to maintain a close relationship with God and serves as a reminder of the divine throughout the day.
                          </p>
                     </div>
-                    <img src="./images/quran2_VSCO.JPG" alt='quran-pic' className='quran-pic' />
+                    <img src="./images/prayer-film.JPG" alt='quran-pic' className='quran-pic' />
                 </div>
                 <p className="question">What is Ramadan?</p>
                     <p className="answer"> Ramadan is the ninth month of the Islamic lunar calendar. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs during daylight hours as an act of worship and obedience to God.</p>
